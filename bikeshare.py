@@ -46,6 +46,7 @@ def get_filters():
                 print ('No info: try another name')         
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    #Added second comment for phase 4
     day_name = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     
     while True:
