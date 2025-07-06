@@ -34,6 +34,10 @@ def get_filters():
     
 
     # TO DO: get user input for month (all, january, february, ... , june)
+<<<<<<< HEAD
+=======
+    #Adding extra comment for git
+>>>>>>> refactoring
     month_name = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
           
     while True:
@@ -45,7 +49,9 @@ def get_filters():
                 print ('No info: try another name')         
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day_name = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+
+    #Testing second comment for phase 4
+   day_name = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     
     while True:
             day = input('Enter the day ').lower()
@@ -58,6 +64,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+<<<<<<< HEAD
 def print_five_rows_at_a_time(df):
     i=0
     while True:
@@ -66,6 +73,17 @@ def print_five_rows_at_a_time(df):
         i=i+5
         if five_more_rows.lower() != 'yes':
             break      
+=======
+Initial commit
+#def print_five_rows_at_a_time(df):
+    #i=0
+    #while True:
+        #print(df.iloc[i+0:i+5])
+        #five_more_rows = input("Would you like to see 5 more rows of data? Enter yes or no\n")
+        #i=i+5
+        #if five_more_rows.lower() != 'yes':
+            #break      
+>>>>>>> refactoring
     
 
 def load_data(city, month, day):
