@@ -2,7 +2,7 @@
 
 Added "Hello!"
 ### Date created was 7.3.25
-Hello! Include the date you created this project and README file.
+Hello! 7.3.25 originally, fix on 7.7.25
 
 ### Project Title Udacity Test
 Test project
@@ -11,8 +11,7 @@ Test project
 This is the bikeshare file
 
 ### Files used
-Include the files used
-git 
+bikeshare.py. Attempted to ignore the data files
 ### Credits
 Andrew changed this file. 
 
